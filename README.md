@@ -1,4 +1,4 @@
-#Gun-Detection
+# Gun-Detection
 Real time gun detection is one of the pivotal things to improve the survelliance methods. Previosuly, infrared rays were used to detect the concealed weapons which slows down the gun detection process. I used a Tensorflow-based implementation of VGGNet network to train. I used 5 types of guns to train my network: Assault Rifle, Battle Rifle, Bullpup, Pistols and Revolver.
 
 <h2>Preprocessing</h2>
