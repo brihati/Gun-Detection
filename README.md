@@ -5,7 +5,7 @@ Real time gun detection is one of the pivotal things to improve the survelliance
 In the preprocessing step, I scaled the images using standard deviation which was caculated from the sample data. Also, I zero sampled the images using the mean calculated from the sample data. These pre-processing methods were used both during the training and testing time.
 
 <h2>Database</h2>
-I implemented a web crawler to download relevant images from the Internet Movie Firearms Database. I used around 5200 images in total for training and validation purposes in the ratio of 4:1 respectively. The dataset can be requested by dropping me a mail at brihati1373@gmail.com with subject "Gun Firearm Database"
+I implemented a web crawler to download relevant images from the Internet Movie Firearms Database. I used around 5200 images in total for training and validation purposes in the ratio of 4:1 respectively.
 
 <h2>VGG Model</h2>
 <div>network = input_data(shape = [None, constants.IMAGE_HEIGHT, constants.IMAGE_WIDTH, 3])</div>
